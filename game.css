@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    background: #222;
+    color: white;
+    font-family: Arial;
+}
+
+#game {
+    position: relative;
+    width: 700px;
+    height: 700px;
+    background: black;
+    margin: auto;
+    border: 2px solid white;
+}
+
+#box {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+     background: cyan; 
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#score {
+    font-size: 24px;
+    margin-top: 20px;
+}
